@@ -40,7 +40,7 @@ function Navbar() {
                     </div>
                 </nav>
             </section>
-            <div className='pt-20 mx-8'>
+            <div className='pt-20 mx-8 text-white'>
             <Outlet></Outlet>
             </div>
         </>
