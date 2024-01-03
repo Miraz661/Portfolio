@@ -8,7 +8,7 @@ function Navbar() {
         <>
             <section className="px-8 bg-[#0a192f] text-white fixed w-full">
                 <nav className='grid grid-cols-12 py-4'>
-                    <h1 className="col-span-5">Miraz</h1>
+                    <h1 className="col-span-5 font-semibold text-2xl">爪丨尺卂乙</h1>
                     <div className={`col-span-7 flex ${isOpen?'justify-between':'justify-end'} md:block`}>
                         <ul onClick={() => setIsOpen(false)} className={`pt-10 md:pt-0 text-center text-lg md:grid-cols-6 ${isOpen? 'md:grid':'hidden'} md:grid`}>
                             <Link to="/">
