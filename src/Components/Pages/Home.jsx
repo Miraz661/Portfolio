@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom'
 import { FaFacebook, FaLinkedin, FaGithub, } from 'react-icons/fa'
 import { SiLeetcode } from 'react-icons/si'
+import Lottie from 'lottie-react'
+import animationData2 from '../../assets/Images/animation_rocket.json'
 
 function Home() {
   return (
@@ -16,7 +18,7 @@ function Home() {
           </Link>
         </div>
         <div className='md:col-span-6'>
-          <img className='w-full' src="https://img.freepik.com/free-photo/3d-render-spaceman-astronaut-with-alarm-clock-3d-illustration-design_460848-13206.jpg?size=626&ext=jpg&ga=GA1.1.274228320.1704267020&semt=ais" />
+        <Lottie animationData={animationData2}/>
         </div>
       </div>
       <div className='text-white py-10 flex justify-center w-full'>
