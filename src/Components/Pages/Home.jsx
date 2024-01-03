@@ -6,7 +6,7 @@ import animationData2 from '../../assets/Images/animation_rocket.json'
 
 function Home() {
   return (
-    <div className='pt-[1.20rem]'>
+    <div className='pt-[1px]'>
       <div className='grid md:grid-cols-12 grid-cols-1 text-white gap-4'>
         <div className='md:col-span-6'>
           <h3 className='text-2xl leading-10'>Hi,My Name is</h3>
