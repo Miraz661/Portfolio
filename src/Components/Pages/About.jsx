@@ -2,7 +2,9 @@
 
 function About() {
   return (
-    <div>About</div>
+    <div>
+      <h1 className="text-orange-400 text-4xl text-center pb-3 mb-6">About Me</h1>
+    </div>
   )
 }
 
