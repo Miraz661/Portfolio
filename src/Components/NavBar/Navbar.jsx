@@ -16,7 +16,7 @@ function Navbar() {
                     <div className={`col-span-7 flex ${isOpen ? 'justify-between' : 'justify-end'} md:block`}>
                         <ul onClick={() => setIsOpen(false)} className={`font-semibold,pt-10 md:pt-0 text-center text-lg md:grid-cols-6 ${isOpen ? 'md:grid' : 'hidden'} md:grid`}>
                             <Link to="/">
-                                <li className="hover:text-orange-400">Home</li>
+                                <li className="hover:text-orange-400 font-semibold">Home</li>
                             </Link>
                             <Link to="/education">
                                 <li className="hover:text-orange-400">Education</li>
