@@ -6,7 +6,7 @@ function Education() {
       <h1 className="text-orange-400 text-center text-4xl mt-6 mb-8">Educational Background</h1>
       <div className="flex flex-wrap w-full border-b-4 border-orange-400 pb-3 mb-6">
         <div>
-          <img src='../../assets/Images/uu-logo.png'/>
+          <img src='https://uttarauniversity.edu.bd/wp-content/uploads/2023/07/black-uu-logo.png'/>
         </div>
         <div className="py-4">
           <h1 className="text-4xl">Uttara University</h1>
