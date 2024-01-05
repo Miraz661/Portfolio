@@ -19,19 +19,19 @@ function Navbar() {
                                 <li className="hover:text-orange-400 font-semibold">Home</li>
                             </Link>
                             <Link to="/education">
-                                <li className="hover:text-orange-400">Education</li>
+                                <li className="hover:text-orange-400 font-semibold">Education</li>
                             </Link>
                             <Link to="/skills">
-                                <li className="hover:text-orange-400">Skills</li>
+                                <li className="hover:text-orange-400 font-semibold">Skills</li>
                             </Link>
                             <Link to="/projects">
-                                <li className="hover:text-orange-400">Projects</li>
+                                <li className="hover:text-orange-400 font-semibold">Projects</li>
                             </Link>
                             <Link to="/research">
-                                <li className="hover:text-orange-400">Research</li>
+                                <li className="hover:text-orange-400 font-semibold">Research</li>
                             </Link>
                             <Link to="/about">
-                                <li className="hover:text-orange-400">About Me</li>
+                                <li className="hover:text-orange-400 font-semibold">About Me</li>
                             </Link>
 
                         </ul>
