@@ -22,7 +22,7 @@ function Education() {
     <div className="mx-6">
       <h1 className="text-orange-400 text-center text-4xl mt-6 mb-8">Educational Background</h1>
       {
-        addEdu("Uttara University","Bachelor of Computer Science and Engineering","../../assets/Images/uu-logo.png","January 2021 - running","Dhaka,Bangladesh")
+        addEdu("Uttara University","Bachelor of Computer Science and Engineering","../../assets/Images/Project1.png","January 2021 - running","Dhaka,Bangladesh")
       }
     </div>
   )
