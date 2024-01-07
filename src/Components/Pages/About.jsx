@@ -1,4 +1,4 @@
-
+import Project1 from '../../assets/Images/uu-logo.png'
 
 function About() {
   return (

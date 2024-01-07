@@ -14,24 +14,24 @@ function Navbar() {
                         </Link>
                     </h1>
                     <div className={`col-span-7 flex ${isOpen ? 'justify-between' : 'justify-end'} md:block`}>
-                        <ul onClick={() => setIsOpen(false)} className={`pt-10 md:pt-0 text-center text-lg md:grid-cols-6 ${isOpen ? 'md:grid' : 'hidden'} md:grid`}>
+                        <ul onClick={() => setIsOpen(false)} className={`font-semibold,pt-10 md:pt-0 text-center text-lg md:grid-cols-6 ${isOpen ? 'md:grid' : 'hidden'} md:grid`}>
                             <Link to="/">
-                                <li className="hover:text-orange-400">Home</li>
+                                <li className="hover:text-orange-400 font-semibold">Home</li>
                             </Link>
                             <Link to="/education">
-                                <li className="hover:text-orange-400">Education</li>
+                                <li className="hover:text-orange-400 font-semibold">Education</li>
                             </Link>
                             <Link to="/skills">
-                                <li className="hover:text-orange-400">Skills</li>
+                                <li className="hover:text-orange-400 font-semibold">Skills</li>
                             </Link>
                             <Link to="/projects">
-                                <li className="hover:text-orange-400">Projects</li>
+                                <li className="hover:text-orange-400 font-semibold">Projects</li>
                             </Link>
                             <Link to="/research">
-                                <li className="hover:text-orange-400">Research</li>
+                                <li className="hover:text-orange-400 font-semibold">Research</li>
                             </Link>
                             <Link to="/about">
-                                <li className="hover:text-orange-400">About Me</li>
+                                <li className="hover:text-orange-400 font-semibold">About Me</li>
                             </Link>
 
                         </ul>
