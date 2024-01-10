@@ -13,7 +13,7 @@ function Home() {
           <h1 className='text-5xl leading-loose text-orange-400'>Miraz Hossain</h1>
           <h1 className='text-3xl text-orange-300'>I BUILD THINGS FOR THE WEB.</h1>
           <p className='text-2xl py-4'>I'm a highly motivated and enthusiastic Junior Full Stack Developer with a strong passion for technology and a desire to make a meaningful impact in the world of web development.</p>
-          <Link to=''>
+          <Link to='https://docs.google.com/document/d/10G6qoc7IXl5qYbIR7WkK2q_sTBiv3SDD/edit?usp=drive_link&ouid=106128156373480834219&rtpof=true&sd=true'>
             <button className='border-2 px-4 py-2 rounded border-orange-600'>RESUME</button>
           </Link>
         </div>
