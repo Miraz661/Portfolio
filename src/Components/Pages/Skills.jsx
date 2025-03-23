@@ -90,6 +90,10 @@ function Skills() {
                     <BsGithub className='text-2xl pt-0.5 pr-1 text-black'/>
                     <span>Github</span>
                   </li>
+                  <li className="flex px-4 py-4 border-2 border-[orange] rounded-lg m-2 w-[160px] font-semibold cursor-pointer">
+                    <PiMicrosoftExcelLogoFill className='text-2xl pt-0.5 pr-1 text-orange-600'/>
+                    <span>MS Office</span>
+                  </li>
                 </div>
                 <div>
                   <li className="flex px-4 py-4 border-2 border-[orange] rounded-lg m-2 w-[160px] font-semibold cursor-pointer">
@@ -99,12 +103,6 @@ function Skills() {
                   <li className="flex px-4 py-4 border-2 border-[orange] rounded-lg m-2 w-[160px] font-semibold cursor-pointer">
                     <BiLogoNetlify className='text-2xl pt-0.5 pr-1 text-cyan-600'/>
                     <span>Netlify</span>
-                  </li>
-                </div>
-                <div>
-                  <li className="flex px-4 py-4 border-2 border-[orange] rounded-lg m-2 w-[160px] font-semibold cursor-pointer">
-                    <PiMicrosoftExcelLogoFill className='text-2xl pt-0.5 pr-1 text-orange-600'/>
-                    <span>MS Office</span>
                   </li>
                   <li className="flex px-4 py-4 border-2 border-[orange] rounded-lg m-2 w-[160px] font-semibold cursor-pointer">
                     <FaChartBar className='text-2xl pt-0.5 pr-1 text-cyan-600'/>
