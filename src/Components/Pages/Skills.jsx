@@ -3,6 +3,8 @@ import {SiC, SiCplusplus, SiFirebase, SiMysql, SiPython, SiTailwindcss} from 're
 import {TbBrandVscode} from 'react-icons/tb'
 import {BsGit,BsGithub} from 'react-icons/bs'
 import {BiLogoNetlify} from 'react-icons/bi'
+import { FaChartBar } from "react-icons/fa"
+import { PiMicrosoftExcelLogoFill } from "react-icons/pi"
 
 function Skills() {
   return (
@@ -97,6 +99,16 @@ function Skills() {
                   <li className="flex px-4 py-4 border-2 border-[orange] rounded-lg m-2 w-[160px] font-semibold cursor-pointer">
                     <BiLogoNetlify className='text-2xl pt-0.5 pr-1 text-cyan-600'/>
                     <span>Netlify</span>
+                  </li>
+                </div>
+                <div>
+                  <li className="flex px-4 py-4 border-2 border-[orange] rounded-lg m-2 w-[160px] font-semibold cursor-pointer">
+                    <PiMicrosoftExcelLogoFill className='text-2xl pt-0.5 pr-1 text-orange-600'/>
+                    <span>MS Office</span>
+                  </li>
+                  <li className="flex px-4 py-4 border-2 border-[orange] rounded-lg m-2 w-[160px] font-semibold cursor-pointer">
+                    <FaChartBar className='text-2xl pt-0.5 pr-1 text-cyan-600'/>
+                    <span>Power BI</span>
                   </li>
                 </div>
               </ul>
