@@ -12,7 +12,7 @@ function Education() {
         <div className="py-4">
           <h1 className="text-4xl">Uttara University</h1>
           <h2 className="text-2xl">Bachelor of Computer Science and Engineering</h2>
-          <h3 className="text-xl">January 2021 - running</h3>
+          <h3 className="text-xl">2021 - 2024</h3>
           <h3 className="text-xl">Dhaka,Bangladesh</h3>
         </div>
       </div>
