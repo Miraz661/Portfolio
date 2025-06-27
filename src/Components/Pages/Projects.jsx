@@ -108,7 +108,7 @@ function Projects() {
                   className="text-white text-xl hover:text-orange-500"
                   alt="Live"
                 />
-              </span>
+              </a>
             </div>
           </div>
         </div>
