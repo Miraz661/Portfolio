@@ -92,8 +92,6 @@ function Projects() {
                 </li>
                 <li>Provides a user-friendly form and contact details for clients to easily get in touch.</li>
                 <li>Introduces the skilled professionals behind the agency, showcasing their roles and expertise.</li>
-                <li>Shares the company’s mission, vision, and journey to build trust with potential clients.</li>
-                <li>Outlines the step-by-step process the team follows to deliver results-driven marketing campaigns.</li>
               </ul>
             </div>
             <div className="mt-2 flex gap-x-12">
