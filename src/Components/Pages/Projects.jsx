@@ -1,7 +1,8 @@
 import { BiLinkExternal } from "react-icons/bi";
 import { FiGithub } from "react-icons/fi";
+import { CgWebsite } from "react-icons/cg";
 import Project1 from "../../assets/Images/Project1.png";
-import Project2 from "../../assets/Images/Project2.png";
+import Project2 from "../../assets/Images/Digital Marketing.png";
 import Project3 from "../../assets/Images/Project3.png";
 
 function Projects() {
@@ -74,40 +75,40 @@ function Projects() {
             <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-1 mb-2">
               TailwindCSS
             </span>
-            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-1 mb-2">
-              ExpressJS
-            </span>
-            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-1 mb-2">
-              MySQl
-            </span>
           </div>
 
           <div className="px-6 py-0">
             <div className="font-bold text-orange-500 text-xl mb-2">
-              E-Attendance
+              Axtra Digital Marketing
             </div>
             <div className="text-white text-base">
               <p className="text-lg text-neutral-400 font-medium mb-4">
                 {" "}
-                A Attendance website to manage daily attendance of students.
+               This digital marketing website presents a professional online presence that showcases services, team expertise, workflow, and enables client interaction.
               </p>
               <ul className="list-disc">
                 <li>
-                  Teachers can easily take attendance using a phone or PC.
+                  Highlights the range of digital marketing solutions offered, including SEO, social media, and content marketing.
                 </li>
-                <li>Search filters and pagination have been applied.</li>
-                <li>Login is required to perform all tasks.</li>
-                <li>New batches or students can be added at any time.</li>
-                <li>Analyzing attendance data can be done in an instant.</li>
+                <li>Provides a user-friendly form and contact details for clients to easily get in touch.</li>
+                <li>Introduces the skilled professionals behind the agency, showcasing their roles and expertise.</li>
+                <li>Shares the company’s mission, vision, and journey to build trust with potential clients.</li>
+                <li>Outlines the step-by-step process the team follows to deliver results-driven marketing campaigns.</li>
               </ul>
             </div>
             <div className="mt-2 flex gap-x-12">
-              <a href="https://github.com/Miraz661/MyDashboard">
+              <a href="https://github.com/Miraz661/axtra-demo-site">
                 <FiGithub
                   className="text-white text-xl hover:text-orange-500"
                   alt="Live"
                 />
               </a>
+              <a href="https://axtra-demo-site.vercel.app/">
+                <CgWebsite
+                  className="text-white text-xl hover:text-orange-500"
+                  alt="Live"
+                />
+              </span>
             </div>
           </div>
         </div>
