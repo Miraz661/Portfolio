@@ -23,7 +23,7 @@ function Home() {
       </div>
       <div className='text-white py-10 flex justify-center w-full'>
         <ul className='flex justify-evenly text-3xl max-w-lg min-w-96'>
-          <Link to="https://www.linkedin.com/in/miraz-hossain-02005a268">
+          <Link to="https://www.linkedin.com/in/miraz-hossain-b04539235/">
             <li className='hover:text-orange-500'>
               <FaLinkedin />
             </li>
